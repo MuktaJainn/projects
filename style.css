@@ -1,0 +1,40 @@
+body{
+    background-color: #212121;
+
+    color: aliceblue;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.box:hover{
+    transform: scale(1.01);
+    
+
+   
+}
+
+
+.box{  
+    display: block;
+    height: 50px; 
+
+    background-color: aliceblue;
+    padding: 15px;
+    padding-left: 20px;
+    
+    margin: 15px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    transition-delay: 0.1s;
+    color: #212121;
+    text-decoration: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+

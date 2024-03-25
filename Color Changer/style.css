@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* To see the effect of align items, i needed to set height  */
+   height: 100vh;
+   background-color: #212121;
+}
+.color{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+    
+}
+h3{
+    color: aliceblue;
+    padding: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.box:hover{
+    transform: scale(1.05);
+}
+
+.grey{
+    background-color: grey;
+}
+
+.white{
+    background-color: aliceblue;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+
+
+
